@@ -1,38 +1,1568 @@
-.App {
+@font-face {
+  font-family: Poppins;
+  src: url(./font/PoppinsRegular-B2Bw.otf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./font/PoppinsBold-GdJA.otf);
+}
+
+.wadah_breaking {
+  margin-top: 18px;
+}
+
+.margin_kanankiri {
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.button_breaking_news {
+  background-color: #c2272d;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  color: #fff;
+  line-height: 17px;
+  font-family: Poppins;
+  margin-right: 10px;
+}
+
+.link_breaking_news {
+  font-size: 14px;
+  text-decoration: none;
+  color: #17222b;
+  opacity: .60;
+  font-family: Poppins;
+}
+
+.content_breaking_news {
+  display: inline-block;
+  padding: 12px 0px;
+}
+
+.wadah_content_breaking .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_breaking .row .col-xl-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_breaking .row .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_breaking_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_breaking_2 .row .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_breaking_2 .row .col-xl-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.date_now {
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  opacity: .85;
+  color: rgb(23, 34, 43);
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.wadah_icon_medsos {
+  text-align: right;
+  color: #17222b;
+  opacity: .60;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.margin_medsos {
+  margin: 0px 10px;
+}
+
+.logo_navbar_img {
+  width: 350px;
+  margin: 10px 0px 10px 0px;
+}
+
+.menu_link_navbar {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: PoppinsBold;
+  display: inline-block;
+  color: #17222b;
+  padding: 8px 3px;
+  transition: all .2s ease-out;
+  border-bottom: 2px solid #fff;
+}
+
+.menu_link_navbar:hover {
+  color: #c2272d;
+  background-color: #f3f3f4;
+  border-bottom: 2px solid #c2272d;
+}
+
+.menu_link_navbar_indeks {
+  color: #c2272d;
+  background-color: #f3f3f4;
+  border-bottom: 2px solid #c2272d;
+  padding: 8px 3px;
+  font-size: 14px;
+  font-family: PoppinsBold;
+  display: inline-block;
+}
+
+.margin_right_menu {
+  margin-right: 6px;
+}
+
+.icon_search_link {
+  font-size: 20px;
+  color: #17222b;
+}
+
+.icon_hamburger_navbar {
+  font-size: 20px;
+  color: #17222b;
+  cursor: pointer;
+  display: none;
+  margin-bottom: -35px;
+}
+
+.link_close {
+  text-align: right;
+  display: none;
+}
+
+.link_close span {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  color: #777;
+  font-weight: 500;
+  font-family: Poppins;
+  transition: all .4s;
+}
+
+.link_close_dark {
+  text-align: right;
+  display: none;
+}
+
+.link_close_dark span {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  color: #ffff;
+  font-weight: 500;
+  font-family: Poppins;
+  transition: all .4s;
+}
+
+.link_close span:hover {
+  color: #c2272d;
+}
+
+.wadah_content_navandham .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_navandham .row .col-xl-11 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_navandham .row .col-lg-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_iklan_navbar .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_iklan_navbar .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_iklan {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.margin_right_iklan {
+  margin-right: 15px;
+}
+
+.margin_left_iklan {
+  margin-left: 15px;
+}
+
+.wadah_politik {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+}
+
+.content_politik {
+  font-size: 24px;
+  font-family: PoppinsBold;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.wadah_iklan_navbar {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.wadah_berita_politik .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_berita_politik .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_berita_keluar .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_berita_keluar .row .col-xl-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_berita_keluar .row .col-xl-10 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_berita_keluar {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.img_berita_politik {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.tanggal_berita_keluar {
+  font-size: 12px;
+  color: #999;
+  font-family: Poppins;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.wadah_link_tanggal {
+  padding-left: 14px;
+}
+
+.link_berita_politik {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #17222b;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.link_berita_politik:hover {
+  color: #c2272d;
+}
+
+.margin_bottom_content_politik {
+  margin-bottom: 20px;
+}
+
+.wadah_berita_politik .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_button_seven {
+  background-color: #c2272d;
+  box-shadow: 0 10px 40px rgba(0,0,0,.15);
+  display: inline-block;
+}
+
+.wadah_button_seven span {
+  padding: 12px;
+  color: #fff;
+  font-family: Poppins;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.icon_medos {
+  color: #17222b;
+}
+
+.wadah_berita_top_seven {
+  margin-top: 15px;
+}
+
+.wadah_berita_top_seven .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_berita_top_seven .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_berita_top_seven .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img_berita_top_seven {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.margin_right_wadah_politik {
+  margin-right: 30px;
+}
+
+.wadah_content_top_seven {
+  padding-left: 20px;
+}
+
+.link_content_berita_top_seven {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #17222b;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all .3s;
+  display: inline-block;
+  text-align: left;
+}
+
+.link_content_berita_top_seven:hover {
+  color: #c2272d;
+}
+
+.content_politik_span_top_seven {
+  font-size: 12px;
+  color: #c2272d;
+  font-family: Poppins;
+  margin-right: 6px;
+}
+
+.tanggal_politik_span_top_seven {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #999;
+  padding-left: 6px;
+  border-left: 1.5px solid #999;
+}
+
+.wadah_img_berita_top_seven {
+  position: relative;
+}
+
+.nomor_berita_top_seven {
+  position: absolute;
+  top: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 2px 8px;
+  background-color: #c2272d;
+  font-size: 11px;
+  font-family: Poppins;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.wadah_iklan_top_seven {
+  background-color: #000;
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wadah_iklan_top_seven span {
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.margin_top_berita_seven {
+  padding-top: 5px;
+}
+
+.margin_top_iklan_seven {
+  margin-top: 10px;
+}
+
+.wadah_video_iklan_top_seven {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.logo_ig_top_seven {
+  width: 17px;
+  height: 17px;
+}
+
+.wadah_logo_link_ig_top_seven {
+  text-decoration: none;
+  color: #c2272d;
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.wadah_deskrip_link_top_seven {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.margin_right_logo_ig_top_seven {
+  margin-right: 7px;
+}
+
+.wadah_trending_tag {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.button_trending_tag {
+  background-color: #c2272d;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.button_trending_tag {
+  color: #fff;
+  font-family: Poppins;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 12px;
+}
+
+.margin_right_logo_medsos {
+  margin-right: 6px;
+}
+
+.content_tagar_top_seven {
+  font-size: 16px;
+  color: #c2272d;
+  font-family: Poppins;
+  display: inline-block;
+}
+
+.link_content_tagar_top_seven {
+  text-decoration: none;
+}
+
+.margin_bottom_top_seven_2 {
+  margin-bottom: 10px;
+}
+
+.title_foto_slide_berita {
+  background-color: #c2272d;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-family: Poppins;
+  padding: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  margin-bottom: 20px;
+}
+
+.wadah_foto_slide_berita {
+  padding-top: 10px;
+}
+
+.wadah_foto_berita_one {
+  margin-right: 30px;
+}
+
+.wadah_foto_berita_one .row {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.wadah_foto_berita_one .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.foto_berita_two {
+  width: 100%;
+}
+
+.link_foto_berita_Two {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.link_foto_berita_Two span {
+  font-size: 14px;
+  color: #c2272d;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.link_tanggal_berita_Two {
+  text-decoration: none;
+}
+
+.link_tanggal_berita_Two span {
+  font-size: 14px;
+  color: #17222b;
+  font-family: Poppins;
+  font-weight: 600;
+  opacity: .75;
+  padding-left: 10px;
+  border-left: 2px solid rgba(119, 119, 119, .5);
+}
+
+.wadah_foto_berita_two {
+  margin-bottom: 20px;
+}
+
+.link_title_berita_two {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.link_title_berita_two span {
+  font-size: 18px;
+  font-family: Poppins;
+  color: #17222b;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.link_title_berita_two span:hover {
+  color: #c2272d;
+}
+
+.wadah_all_content_foto {
+  margin-right: 15px;
+  padding-bottom: 30px;
+}
+
+.wadah_all_content_foto_two{
+  margin-left: 15px;
+} 
+
+.margin_right_wadah_foto_berita_one {
+  margin-right: 30px;
+}
+
+.wadah_footer {
+  padding-top: 40px;
+}
+
+.margin_kanankiri_footer {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.wadah_link_footer {
+  text-align: center;
+}
+
+.wadah_link_footer .link_wadah_link_footer {
+  color: #000;
+  text-decoration: none;
+  font-family: PoppinsBold;
+  font-size: 14px;
+  margin: 0px 15px;
+  transition: all .3s;
+}
+
+.wadah_link_footer .link_wadah_link_footer:hover {
+  color: #c2272d;
+}
+
+.wadah_icon_footer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.margin_right_footer {
+  margin-right: 6px;
+}
+
+.wadah_logo_network_footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.logo_network_footer {
+  width: 364px;
+}
+
+.wadah_pronsi_footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.link_provinsi_footer {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-family: PoppinsBold;
+  transition: all .3s;
+  margin: 0px 7px;
+}
+
+.link_provinsi_footer:hover {
+  color: #c2272d;
+}
+
+.wadah_copyright_footer {
+  padding-top: 80px;
+}
+
+.content_copyright_footer {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.padding_bottom_column {
+  padding-bottom: 0px;
+}
+
+.content_politik_indeks {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.wadah_search_tanggal {
+  background-color: #e9eaeb;
+  padding: 10px 20px 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.wadah_search_tanggal span {
+  font-size: 14px;
+  font-family: Poppins;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #17222b;
+}
+
+.wadah_button_tanggal {
+  background-color: #fff;
+}
+
+.button_tanggal_indeks {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  border: none;
+  font-family: Poppins;
+}
+
+.button_tanggal_indeks:focus {
+  outline: none;
+  border: none;
+}
+
+.wadah_button_tanggal_and_indeks .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_button_tanggal_and_indeks .row .col-xl-10 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_button_tanggal_and_indeks .row .col-xl-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content_button_indeks {
+  width: 100%;
+  background-color: #c2272d;
+  font-size: 16px;
+  padding: 15px 15px;
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.wadah_calendar_libarary {
+  position: absolute;
+}
+
+.wadah_pagination {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.wadah_arrow_left_pagi {
+  display: inline-block;
+  color: #17222b;
+  background-color: #e4e5e6;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 24px;
+  transition: all .4s;
+}
+
+.wadah_arrow_left_pagi:hover {
+  background-color: #c2272d;
+  color: #fff;
+}
+
+.link_arrow_left {
+  color: #17222b;
+}
+
+.link_angka_paginat {
+  display: inline-block;
+  text-decoration: none;
+  color: #17222b;
+}
+
+.wadah_angka_paginat {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #fff;
+  background-color: #c2272d;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 58px;
+}
+
+.wadah_angka_paginat_non {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #17222b;
+  background-color: #e4e5e6;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 58px;
+  transition: all .4s;
+}
+
+.wadah_angka_paginat_non:hover {
+  background-color: #c2272d;
+  color: #fff;
+}
+
+.margin_right_pagination {
+  margin-right: 10px;
+}
+
+
+.margin_bottom_pagi {
+  margin-bottom: 20px;
+}
+
+.display_none {
+  display: none;
+}
+
+.wadah_not_found {
+  height: 100vh;
+}
+
+.wadah_img_notfound {
+  text-align: center;
+}
+
+.img_not_found_dark {
+  width: 55%;
+}
+
+.span_the_light {
+  display: block;
+}
+
+.wadah_turn_on_the_light {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.wadah_button_dark_or_light {
+  position: absolute;
+  top: 0;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.wadah_button_and_thelight {
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+
+.switcherr {
+  position: absolute;
+  left: 0;
+  margin-top: 21px;
+  margin-left: 65px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.switcher-on {
+  margin-left: 120px;
+}
+
+.bg-darkk {
+  background-color: #000c2f;
+}
+
+.bg-lightt {
+  background-color: #F0FF79;
+}
+
+.color-blackk {
+  color: #000;
+}
+
+.link_button_politik_1 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: Poppins;
+  background-color: #c2272d;
+  padding: 2px 7px;
+  border-radius: 16px;
+  border: 1px solid #c2272d;
+}
+
+.wadah_judul_berita_politik_1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.judul_berita_politik_1 {
+  font-size: 24px;
+  font-family: PoppinsBold;
+}
+
+.icon_medsos_politik {
+  width: 30px;
+  height: 30px;
+}
+
+.link_icon_medsos_politik_1 {
+  margin-right: 6px;
+}
+
+.wadah_profil_report .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_profil_report .row .col-xl-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_profil_report .row .col-xl-11 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content_img_profil_report {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.content_name_reporter {
+  font-size: 14px;
+  font-family: Poppins;
+  color: #17222b;
+}
+
+.content_name_reporter_bold {
+  font-weight: 600;
+}
+
+.date_reporter_post {
+  font-size: 14px;
+  font-family: Poppins;
+  color: #73797f;
+}
+
+.wadah_profil_report {
+  margin-top: 30px;
+}
+
+.wadah_name_reporter {
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.wadah_date_reporter_post {
+  margin-left: 10px;
+}
+
+.wadah_img_post_berita {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.content_img_post_berita {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.content_span_img_post {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #8A8F94;
+  font-weight: 600;
+}
+
+.wadah_span_img_post {
+  margin-bottom: 15px;
+}
+
+.img_deskripsi_post_1 {
+  margin-right: 5px;
+}
+
+.span_deskripsi_post_1 {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #17222b;
+}
+
+.wadah_poster_rmol_berita_terkait .row .col-xl-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_poster_rmol_berita_terkait .row .col-xl-10 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.poster_rmol_id {
+  width: 100%;
+}
+
+.wadah_berita_terkait_rmol {
+  margin-left: 30px;
+}
+
+.heading_berita_terkait_rmol {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #c2272d;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.img_berita_terkait_rmol {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.link_span_berita_terkait {
+  text-decoration: none;
+  color: #17222b;
+  font-size: 16px;
+  font-family: Poppins;
+  transition: all .3s;
+}
+
+.link_span_berita_terkait:hover {
+  color: #c2272d;
+}
+
+.wadah_img_berita_terkait_rmol {
+  margin-right: 20px;
+}
+
+.wadah_poster_rmol_berita_terkait {
+  margin-top: 20px;
+}
+
+.margin_bottom_berita_rmol {
+  margin-bottom: 15px;
+}
+
+.wadah_paragraf_berita_rmol {
+  margin-top: 40px;
+}
+
+.wadah_paragraf_berita_rmoll {
+  margin-top: 30px;
+}
+
+.content_paragraf_berita_rmol {
+  font-size: 16px;
+  font-family: Poppins;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.mrgin_top_judul_berita_juga {
+  margin-top: 20px;
+}
+
+.name_editor_org {
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+.wadah_name_editor_org {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.bold_editor {
+  font-weight: 600;
+}
+
+.wadah_content_berita_politik_all {
+  margin-right: 30px;
+}
+
+.wadah_poster_app  {
+  margin-top: 20px;
+}
+
+.content_poster_app {
+  width: 100%;
+}
+
+.wadah_logo_poster_app {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo_poster_app {
+  margin-right: 5px;
+}
+
+.background_color_content_berita {
+  background-color: #f2f2f2;
+}
+
+.wadah_other_articles {
+  margin-top: 30px;
+}
+
+.wadah_button_other_articles {
+  background-color: #c2272d;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Poppins;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px;
+  line-height: 12px;
+  box-shadow: 0 10px 40px rgb(0 0 0 / 15%);
+  margin-bottom: 20px;
+}
+
+.img_other_articles {
+  width: 100%;
+}
+
+.wadah_poster_rmol_berita_terkait .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_other_articles .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_button_political {
+  background-color: #c2272d;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  font-family: Poppins;
+  padding: 3px 5px;
+  border: 1px solid #c2272d;
+  border-radius: 16px;
+}
+
+.wadah_deskrip_political {
+  margin-top: 5px;
+}
+
+.link_deskrip_political {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #17222b;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.link_deskrip_political:hover {
+  color: #c2272d;
+}
+
+.wadah_political_and_deskrip_article {
+  padding-left: 15px;
+}
+
+.padding_other_article {
+  padding-right: 15px;
+}
+
+.padding_other_article_left {
+  padding-left: 15px;
+}
+
+.margin_bottom_article_other {
+  margin-bottom: 30px;
+}
+
+.margin_bottom_article_other_3 {
+  margin-bottom: 0px;
+}
+
+.margin_bottom_follow_us {
+  margin-bottom: 10px;
+}
+
+.background_breakingdark {
+  background-color: rgb(23, 34, 43);
+  padding-top: 18px;
+}
+
+.color_link_breaking_news {
+  color: #fff;
+}
+
+.color_date_now {
+  color: #fff;
+  font-size: 14px;
+}
+
+.icon_medos_dark {
+  color: rgb(255, 255, 255);
+}
+
+.background_color_wadah_navbar {
+  background-color: rgb(35, 51, 64);
+}
+
+.menu_link_navbar_dark {
+  color: #fff;
+  text-decoration: none;
+  font-family: PoppinsBold;
+  padding: 8px 3px;
+  font-size: 14px;
+  transition: all .2s ease-out;
+  border-bottom: 2px solid rgb(35, 51, 64);
+}
+
+.menu_link_navbar_dark:hover {
+  background-color: rgb(46, 61, 74);
+  border-bottom: 2px solid #c2272d;
+}
+
+.menu_link_navbar_indeks_dark {
+  background-color: rgb(46, 61, 74);
+  border-bottom: 2px solid #c2272d;
+}
+
+.wadah_iklan_navbar_dark {
+  margin-bottom: 16px;
+  margin-top: 18px;
+}
+
+.color_icon_hamburger_navbar {
+  color: rgba(221, 221, 221, .5);
+}
+
+.color_icon_search_link {
+  color: #fff;
+}
+
+.wadah_button_foto {
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  background-color: #c2272d;
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  line-height: 12px;
+  margin-bottom: 20px;
+}
+
+.wadah_foto_dark {
+  background-color: rgb(23, 34, 43);
+}
+
+.background_color_root {
+  background-color: rgb(23, 34, 43);
+}
+
+.link_foto_berita_Two_color_foto_link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Poppins;
+  margin-right: 10px;
+}
+
+.link_tanggal_berita_Two_foto {
+  color: #ddd;
+  font-weight: 600;
+  font-family: Poppins;
+  text-decoration: none;
+  padding-left: 10px;
+  border-left: 2px solid #fff;
+  transition: all .3s;
+}
+
+.link_tanggal_berita_Two_foto:hover {
+  color: #c2272d;
+}
+
+.link_title_berita_two_foto {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all .3s;
+}
+
+.link_title_berita_two_foto:hover {
+  color: #c2272d;
+}
+
+.foto_poster_galery {
+  width: 100%;
+}
+
+.wadah_poster_galery {
+  margin-bottom: 60px;
+}
+
+.img_foto_foto {
+  width: 100%;
+}
+
+.tanggal_hari_waktu {
+  font-size: 16px;
+  color: #fff;
+  font-family: Poppins;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+ 
+.link_judul_foto_foto {
+  font-size: 18px;
+  font-family: Poppins;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.link_judul_foto_foto:hover {
+  color: #c2272d;
+}
+
+.span_foto_foto {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+  opacity: .85;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .margin_right_wadah_politik {
+    margin-right: 0;
+  }
+
+  .margin_right_wadah_foto_berita_one {
+    margin-right: 0px;
+  }
+
+  .wadah_button_seven {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .padding_bottom_column {
+    padding-bottom: 0px;
+  }
+
+  .margin_bottom_trending_tag {
+    margin-bottom: 60px;
+  }
+
+  .wadah_search_tanggal {
+    margin-right: 0;
+  }
+
+  .display_none {
+    display: block;
+  }
+
+  .display_none_2 {
+    display: none;
+  }
+
+  .background_breakingdark {
+    display: none;
+  }
+
+  .wadah_pagination {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .padding_other_article {
+  padding-right: 0px;
+}
+
+.padding_other_article_left {
+  padding-left: 0px;
+}
+
+.margin_bottom_article_other_3 {
+  margin-bottom: 30px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+  .margin_kanankiri {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  .margin_top_20px {
+    margin-top: 20px;
+  }
+
+  .wadah_content_berita_politik_all {
+    margin-right: 0px;
+  }
+
+}
+
+@media screen and (max-width: 909px) {
+  .wadah_breaking {
+    display: none;
+  }
+
+  .wadah_menu_navbar_2 {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 40%;
+    right: -100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fff;
+    transition: right 0.3s ease;
+    z-index: 9999;
+  }
+
+  .wadah_menu_navbar_2_dark {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 40%;
+    right: -100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #c2272d;
+    transition: right 0.3s ease;
+    z-index: 99999;
+  }
+
+  .wadah_menu_navbar_2_open_dark {
+    right: 0;
+  }
+
+  .wadah_menu_navbar_2_open {
+    right: 0;
+  }
+
+  .menu_link_navbar {
+    border-bottom: 2px solid rgba(0,0,0,.15);
+    display: block;
+  }
+
+  .menu_link_navbar_dark {
+    border-bottom: 2px solid rgba(0,0,0,.15);
+    display: block;
+  }
+
+  .icon_hamburger_navbar {
+    display: inline-block;
+  }
+
+  .link_close {
+    display: block;
+  }
+
+  .link_close_dark {
+    display: block;
+  }
+
+  .logo_navbar_img {
+    width: 180px;
+  }
+
+  .menu_link_navbar {
+    padding: 8px 8px;
+  }
+
+  .menu_link_navbar_dark {
+    padding: 8px 8px;
+  }
+  
+  .margin_kanankiri_footer {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  
+}
+
+@media screen and (max-width: 767px) {
+  .wadah_all_content_foto {
+    margin-right: 0px;
+  }
+  
+  .wadah_all_content_foto_two{
+    margin-left: 0px;
+  }
+  
+  .wadah_all_content_foto_two {
+    display: none;
+  }
+
+  .margin_bottom_follow_us {
+    margin-bottom: 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 576px) {
+  .margin_top_iklan {
+    margin-bottom: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .margin_right_iklan {
+    margin-right: 0;
+  }
+
+  .margin_left_iklan {
+    margin-left: 0;
+  }
+
+  .logo_network_footer {
+    width: 70%;
+  }
+
+  .wadah_calendar_libarary {
+    width: 70%;
+  }
+
+  .wadah_arrow_left_pagi {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+  }
+
+  .wadah_angka_paginat {
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+  }
+  
+  .wadah_angka_paginat_non {
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+  }
+
+  .poster_rmol_id {
+    display: none;
+  }
+
+  .wadah_berita_terkait_rmol {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .wadah_name_reporter {
+    padding-top: 0px;
+  }
+
+  .date_reporter_post {
+    font-size: 13px;
   }
 }
