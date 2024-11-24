@@ -1,5 +1,6 @@
 import Breaking from "../component/Breaking";
 import Dunia from "../component/Dunia";
+import Duniaa from "../component/Duniaa";
 import Footer from "../component/Footer";
 import NavbarDunia from "../component/NavbarDunia";
 
@@ -8,7 +9,7 @@ function PagesDunia () {
         <>
             <Breaking />
             <NavbarDunia />
-            <Dunia />
+            <Duniaa />
             <Footer />
         </>
     );

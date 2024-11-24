@@ -40,6 +40,22 @@ import NextArrow from "./NextArrow";
 import PreviewArrow from "./PreviewArrow";
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
+import img_tekno_1 from "../img/img_tekno_1.jpeg"
+import img_tekno_2 from "../img/img_tekno_2.jpg"
+import img_tekno_3 from "../img/img_tekno_3.jpg"
+import img_tekno_4 from "../img/img_tekno_4.jpg"
+import img_tekno_5 from "../img/img_tekno_5.jpg"
+import img_tekno_6 from "../img/img_tekno_6.jpeg"
+import img_tekno_7 from "../img/img_tekno_7.jpeg"
+import img_tekno_8 from "../img/img_tekno_8.jpeg"
+import pertahanan_1 from "../img/pertahanan_1.jpg"
+import politik_3 from "../img/politik_read_3.jpg"
+import politik_1 from "../img/POLITIK10.jpeg"
+import dunia_1 from "../img/dunia_1.jpeg"
+import dunia_2 from "../img/dunia_2.jpeg"
+import hukum_1 from "../img/hukum_1.jpg"
+import hukum_2 from "../img/hukum_2.jpg"
+import POLITIK3 from "../img/POLITIK3.jpg";
 
 function Tekno () {
     return (
@@ -53,14 +69,15 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_1} className="img_berita_politik" />
+                                            <Link to="read/1">
+                                                <img src={img_tekno_1} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">08 Agustus 2024 18:07</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Setelah Pilates, Zita Anjani Ajak Ibu-Ibu Bikin Brownies Rendah Gula</Link>
+                                                <span className="tanggal_berita_keluar">15 November 2024 15:02
+                                                </span>
+                                                <Link to="read/1" className="link_berita_politik">Amazon Kembangkan Kacamata GPS untuk Kurir</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -69,14 +86,15 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_2} className="img_berita_politik" />
+                                            <Link to="read/2">
+                                                <img src={img_tekno_2} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">08 Agustus 2024 21:45</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Ini Alasan Golkar Belum Resmi Umumkan Ridwan Kamil untuk Pilkada Jakarta</Link>
+                                                <span className="tanggal_berita_keluar">15 November 2024 14:40
+                                                </span>
+                                                <Link to="read/2" className="link_berita_politik">Tiga Bulan Cuti, Greg Brockman Akhirnya Kembali ke OpenAI</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -85,14 +103,14 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_3} className="img_berita_politik" />
+                                            <Link to="read/3">
+                                                <img src={img_tekno_3} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:20</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Diduga Lakukan Safari Politik Berbungkus Kegiatan Agama, Sutrisno Pangaribuan: Copot Agus Fatoni</Link>
+                                                <span className="tanggal_berita_keluar">14 November 2024 02:06</span>
+                                                <Link to="read/3" className="link_berita_politik">AI Makin Diminati untuk Bikin Konten</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -101,14 +119,15 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_4} className="img_berita_politik" />
+                                            <Link to="read/4">
+                                                <img src={img_tekno_4} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:14</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Jokowi dan Airlangga Bertemu Empat Mata, Ini yang Dibahas</Link>
+                                                <span className="tanggal_berita_keluar">11 November 2024 14:30
+                                                </span>
+                                                <Link to="read/4" className="link_berita_politik">Perubahan Besar, Apple akan Gunakan Lensa Aperture Variabel di iPhone 18</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -117,14 +136,16 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_5} className="img_berita_politik" />
+                                            <Link to="read/5">
+                                                <img src={img_tekno_5} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:11</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Mardiana: Keputusan Maju Pilkada Lampung Tengah Karena Masyarakat</Link>
+                                                <span className="tanggal_berita_keluar">10 November 2024 07:16
+                                                </span>
+                                                <Link to="read/5" className="link_berita_politik">Badai Garam Peretas Tiongkok Akses Data Seluler Jutaan Warga AS
+                                                </Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -133,14 +154,15 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_6} className="img_berita_politik" />
+                                            <Link to="read/6">
+                                                <img src={img_tekno_6} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:09</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Jarnas '98 Minta Polisi Proses Benny Rhamdani</Link>
+                                                <span className="tanggal_berita_keluar">09 November 2024 13:59
+                                                </span>
+                                                <Link to="read/6" className="link_berita_politik">Google akan Rilis Android 16 untuk TV pada 2026</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -149,14 +171,15 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_7} className="img_berita_politik" />
+                                            <Link to="read/7">
+                                                <img src={img_tekno_7} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 19:55</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Program Prabowo-Gibran Diakomodir RAPBN 2025 Jadi Tradisi Baik</Link>
+                                                <span className="tanggal_berita_keluar">07 November 2024 15:44
+                                                </span>
+                                                <Link to="read/7" className="link_berita_politik">WhatsApp Siapkan Fitur Baru untuk Cek Keaslian Foto dalam Pesan</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -165,197 +188,18 @@ function Tekno () {
                                 <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
                                     <Row>
                                         <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_8} className="img_berita_politik" />
+                                            <Link to="read/8">
+                                                <img src={img_tekno_8} className="img_berita_politik" />
                                             </Link>
                                         </Col>
                                         <Col xl={10} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 19:43</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Soal Dugaan Penjegalan Anies, PDIP Cuma Basa-basi Politik ke PKS</Link>
+                                                <span className="tanggal_berita_keluar">07 November 2024 09:32
+                                                </span>
+                                                <Link to="read/8" className="link_berita_politik">Infinix Zero 40 5G Dirilis, Lebih Kencang dengan Chipset Dimensity 8200 Ultimate</Link>
                                             </div>
                                         </Col>
                                     </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_9} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 19:24</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Setelah Banten, PKB Siap Bersama Gerindra di Jakarta</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_10} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Muktamar PKB Dipercepat, Cak Imin Kembali jadi Ketum?</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_11} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Sopir Dicekoki Miras, Truk di SPBU Dibawa Kabur</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_12} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Bey Optimistis Jabar Cetak Hattrick di PON XXI</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_13} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Bidik Kursi Wagub Lampung, Jihan Nurlela akan Mundur dari DPD RI</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_14} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Karpet Merah di Jakarta Bukan untuk Ridwan Kamil</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_15} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Ratusan Narapidana di Jabar Bebas di Hari Kemerdekaan</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_16} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Pengelola Kawasan Wajib Beri Akses Masyarakat ke Area Umum</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_17} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Golkar Perintahkan Kader Beringin RT/RW Sosialisasikan Ridwan Kamil</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div className="wadah_berita_keluar margin_bottom_content_politik margin_right_wadah_politik">
-                                    <Row>
-                                        <Col xl={2} lg={2} md={2} sm={3} xs={3}>
-                                            <Link to="/politik/read/1">
-                                                <img src={berita_18} className="img_berita_politik" />
-                                            </Link>
-                                        </Col>
-                                        <Col xl={10} lg={10} md={10} sm={9} xs={9}>
-                                            <div className="wadah_link_tanggal">
-                                                <span className="tanggal_berita_keluar">09 Agustus 2024 20:03</span>
-                                                <Link to="/politik/read/1" className="link_berita_politik">Zaki Ikhlas Ridwan Kamil Rebut Tiket Pilkada Jakarta</Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </Col>
-
-                            <Col xl={8} className=" display_none">
-                                <div className="wadah_pagination margin_bottom_pagi">
-                                    <Link to="#" className="link_arrow_left margin_right_pagination">
-                                        <div className="wadah_arrow_left_pagi"><BiSolidLeftArrow className="arrow_left_pagi" /></div>
-                                    </Link>
-                                    <Link to="/tekno" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat">1</div>
-                                    </Link>
-                                    <Link to="/tekno/2" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat_non">2</div>
-                                    </Link>
-                                    <Link to="/tekno/3" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat_non">3</div>
-                                    </Link>
-                                    <Link to="/tekno/2" className="link_arrow_left">
-                                        <div className="wadah_arrow_left_pagi"><BiSolidRightArrow  className="arrow_left_pagi" /></div>
-                                    </Link>
                                 </div>
                             </Col>
 
@@ -369,20 +213,20 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_1} className="img_berita_top_seven" />
+                                                <Link to="/pertahanan/read/1">
+                                                    <img src={pertahanan_1} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">1</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Anies Ungkap Alasan Tak Maju Lewat Jalur Independen</span>
+                                                <Link to="/pertahanan/read/1" className="link_content_berita_top_seven">
+                                                    <span>Perwira TNI AL Raih Predikat Outstanding dalam Kursus Long ASW di India</span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
-                                                    <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="content_politik_span_top_seven">Pertahanan</span>
+                                                    <span className="tanggal_politik_span_top_seven">24 November 2024 02:59 </span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -393,20 +237,22 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_2} className="img_berita_top_seven" />
+                                                <Link to="/politik/read/3">
+                                                    <img src={POLITIK3} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">2</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Mendadak Mundur, Airlangga Diduga dalam Tekanan</span>
+                                                <Link to="/politik/read/3" className="link_content_berita_top_seven">
+                                                    <span>Diingatkan Megawati, Aparatur Negara Tak Netral di Pilkada Bisa Dipidana
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
                                                     <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 20:20
+                                                    </span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -417,20 +263,22 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_3} className="img_berita_top_seven" />
+                                                <Link to="/politik/read/1">
+                                                    <img src={politik_1} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">3</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Arief Poyuono: Isu Airlangga Mundur untuk Jatuhkan Jokowi</span>
+                                                <Link to="/politik/read/1" className="link_content_berita_top_seven">
+                                                    <span>PDIP Dikabarkan Usung Anies di Pilkada Jabar, Begini Respons Puan
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
                                                     <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="tanggal_politik_span_top_seven">08 Agustus 2024 18:07
+                                                    </span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -441,20 +289,21 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={tes} className="img_berita_top_seven" />
+                                                <Link to="/dunia/read/1">
+                                                    <img src={dunia_1} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">4</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Kakorlantas Cek Kesiapan Satgas Pamwalrolakir Jelang Upacara Kemerdekaan</span>
+                                                <Link to="/dunia/read/1" className="link_content_berita_top_seven">
+                                                    <span>Indonesia dan Purdue University Siapkan Tim Pengembangan Semikonduktor
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
-                                                    <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="content_politik_span_top_seven">Dunia</span>
+                                                    <span className="tanggal_politik_span_top_seven">23 November 2024, 10:29 WIB</span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -465,20 +314,21 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_5} className="img_berita_top_seven" />
+                                                <Link to="/dunia/read/2">
+                                                    <img src={dunia_2} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">5</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Burung dan Benalu di Dahan Beringin Tua</span>
+                                                <Link to="/dunia/read/2" className="link_content_berita_top_seven">
+                                                    <span>Terbukti Lakukan Penganiayaan, Petarung UFC McGregor Didenda Rp1,4 Miliar
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
-                                                    <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="content_politik_span_top_seven">Dunia</span>
+                                                    <span className="tanggal_politik_span_top_seven">23 November 2024, 09:52 WIB</span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -489,20 +339,21 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_6} className="img_berita_top_seven" />
+                                                <Link to="/hukum/read/1">
+                                                    <img src={hukum_1} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">6</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Mardani Ali Sera: Kecil Peluang PKS Dukung Anies</span>
+                                                <Link to="/hukum/read/1" className="link_content_berita_top_seven">
+                                                    <span>OTT KPK: Rohidin Mersyah Pungut Dana dari ASN untuk Pilkada
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
-                                                    <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="content_politik_span_top_seven">Hukum</span>
+                                                    <span className="tanggal_politik_span_top_seven">24 November 2024, 12:35 WIB</span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -513,20 +364,21 @@ function Tekno () {
                                     <Row>
                                         <Col xl={4} lg={2} md={2} sm={3} xs={3}>
                                             <div className="wadah_img_berita_top_seven">
-                                                <Link>
-                                                    <img src={top_seven_7} className="img_berita_top_seven" />
+                                                <Link to="/hukum/read/2">
+                                                    <img src={hukum_2} className="img_berita_top_seven" />
                                                 </Link>
                                                 <div className="nomor_berita_top_seven">7</div>
                                             </div>
                                         </Col>
                                         <Col xl={8} lg={10} md={10} sm={9} xs={9}>
                                             <div className="wadah_content_top_seven">
-                                                <Link className="link_content_berita_top_seven">
-                                                    <span>Ini Sosok S yang Digadang-gadang Bakal Dampingi RK</span>
+                                                <Link to="/hukum/read/2" className="link_content_berita_top_seven">
+                                                    <span>Terjaring OTT KPK, Gubernur Bengkulu Rohidin Punya Harta Rp4,1 Miliar
+                                                    </span>
                                                 </Link>
                                                 <div className="wadah_tanggal_and_politik_top_seven">
-                                                    <span className="content_politik_span_top_seven">Politik</span>
-                                                    <span className="tanggal_politik_span_top_seven">10 Agustus 2024 02:42</span>
+                                                    <span className="content_politik_span_top_seven">Hukum</span>
+                                                    <span className="tanggal_politik_span_top_seven">24 November 2024, 12:03 WIB</span>
                                                 </div>
                                             </div>
                                         </Col>
@@ -541,7 +393,7 @@ function Tekno () {
                                 </div>
 
                                 <div className="wadah_video_iklan_top_seven margin_top_iklan_seven">
-                                    <ReactPlayer width="100%" url="https://www.youtube.com/watch?v=8UFusPdd44w" />
+                                    <ReactPlayer width="100%" url="https://www.youtube.com/watch?v=xdk3OlmyhzU&pp=ygUVcHJhbW9lZHlhIGFuYW50YSB0b2Vy" />
                                     <div className="wadah_deskrip_link_top_seven">
                                         <Link className="wadah_logo_link_ig_top_seven margin_right_logo_ig_top_seven">
                                             <img src={logo_ig} className="logo_ig_top_seven" />
@@ -593,7 +445,7 @@ function Tekno () {
                                         </div>
                                     </div> 
                                 </div>
-                                <div className="wadah_trending_tag margin_bottom_trending_tag">
+                                <div className="wadah_trending_tag margin_bottom_trending_tag margin_bottom_20px">
                                     <div className="button_trending_tag">
                                         <span>FOLLOW US</span>
                                     </div>
@@ -618,26 +470,6 @@ function Tekno () {
                                             <img src={logo_yt} className="logo_medos" />
                                         </Link>
                                     </div>
-                                </div>
-                            </Col>
-
-                            <Col xl={8} className="display_none_2">
-                                <div className="wadah_pagination margin_bottom_pagi">
-                                    <Link to="#" className="link_arrow_left margin_right_pagination">
-                                        <div className="wadah_arrow_left_pagi"><BiSolidLeftArrow className="arrow_left_pagi" /></div>
-                                    </Link>
-                                    <Link to="/tekno" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat">1</div>
-                                    </Link>
-                                    <Link to="/tekno/2" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat_non">2</div>
-                                    </Link>
-                                    <Link to="/tekno/3" className="link_angka_paginat margin_right_pagination">
-                                        <div className="wadah_angka_paginat_non">3</div>
-                                    </Link>
-                                    <Link to="/tekno/2" className="link_arrow_left">
-                                        <div className="wadah_arrow_left_pagi"><BiSolidRightArrow  className="arrow_left_pagi" /></div>
-                                    </Link>
                                 </div>
                             </Col>
                         </Row>

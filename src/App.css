@@ -1335,6 +1335,10 @@
   opacity: .85;
 }
 
+.margin_bottom_20px {
+  margin-bottom: 20px;
+}
+
 
 @media screen and (max-width: 1199px) {
   .margin_right_wadah_politik {

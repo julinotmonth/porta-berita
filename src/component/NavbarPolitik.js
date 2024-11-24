@@ -37,7 +37,6 @@ function NavbarPolitik () {
                                 <span onClick={closeMenu}>CLOSE</span>
                             </div>
                             <Link to="/" className="menu_link_navbar margin_right_menu">HOME</Link>
-                            <Link to="/indeksberita" className="menu_link_navbar margin_right_menu">INDEKS</Link>
                             <Link to="/politik" className="menu_link_navbar margin_right_menu menu_link_navbar_indeks">POLITIK</Link>
                             <Link to="/bisnis" className="menu_link_navbar margin_right_menu">BISNIS</Link>
                             <Link to="/tekno" className="menu_link_navbar margin_right_menu">TEKNO</Link>
@@ -48,10 +47,6 @@ function NavbarPolitik () {
                             <Link to="/publika" className="menu_link_navbar margin_right_menu">PUBLIKA</Link>
                             <Link to="/olahraga" className="menu_link_navbar margin_right_menu">OLAHRAGA</Link>
                             <Link to="/pertahanan" className="menu_link_navbar margin_right_menu">PERTAHANAN</Link>
-                            <Link to="/otomotif" className="menu_link_navbar margin_right_menu">OTOMOTIF</Link>
-                            <Link to="/hiburan" className="menu_link_navbar margin_right_menu">HIBURAN</Link>
-                            <Link className="menu_link_navbar margin_right_menu">FOTO</Link>
-                            <Link><GoSearch className="icon_search_link" /></Link>
                         </div>
                     </div>
                     <div className="wadah_iklan_navbar">
